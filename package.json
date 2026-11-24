@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix social start",
+    "build": "npm --prefix social run build",
+    "start:backend": "sh -c 'set -a; [ ! -f .env ] || . ./.env; set +a; ./mvnw spring-boot:run'"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.18.6"
+  }
+}

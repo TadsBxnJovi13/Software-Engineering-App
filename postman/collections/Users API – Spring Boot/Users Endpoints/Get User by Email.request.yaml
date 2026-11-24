@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:8080/api/users/email/{email}
+method: GET
+order: 4491232548746468
